@@ -9,7 +9,7 @@ export const AchievementsSection = () => {
   return (
     <div className="flex mt-12 self-center items-start h-fit">
       <SpikeletIcon className="min-h-full w-auto" />
-      <div className="flex flex-col pt-3">
+      <div className="flex flex-col pt-3 sm:pt-2 md:pt-0">
         <Typography
           bold="medium"
           font="montserrat"
@@ -32,7 +32,7 @@ export const AchievementsSection = () => {
           starsStyle="sm:w-4 sm:h-4 md:w-[18px] md:h-[18px]"
         />
       </div>
-      <SpikeletIcon className="min-h-full transorm scale-x-[-1]" />
+      <SpikeletIcon className="min-h-full w-auto transform scale-x-[-1]" />
     </div>
   );
 };
