@@ -1,5 +1,5 @@
 .logos-container {
-  @apply flex items-center justify-center max-2xl:flex-wrap
+  @apply flex items-center justify-center max-xl:flex-wrap
   gap-2 sm:gap-x-3 md:gap-x-4 xl:gap-x-8
   w-[350px] lg:w-[400px] xl:w-full 2xl:w-full
   max-w-fit 2xl:max-w-screen-xl 3xl:max-w-screen-2xl
