@@ -1,5 +1,5 @@
 .dialog {
-  @apply fixed inset-0 grid p-8 rounded-xl bg-element-secondary overscroll-contain overflow-hidden;
+  @apply fixed inset-0 p-8 rounded-xl bg-element-secondary overscroll-contain overflow-hidden;
 }
 
 :global(:root):has(.dialog) {
