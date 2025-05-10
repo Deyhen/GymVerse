@@ -1,0 +1,11 @@
+.button {
+  @apply rounded-lg relative transition-all duration-200 xl:hover:scale-[1.01] active:scale-[0.99] active:duration-75;
+}
+
+.primary {
+  @apply bg-primary px-5 py-2;
+}
+
+.secondary {
+  @apply bg-inherit border border-white px-5 py-4;
+}

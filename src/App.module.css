@@ -1,0 +1,4 @@
+.main {
+  @apply relative flex flex-col gap-6 w-full min-h-screen overflow-hidden bg-contain 3xl:bg-cover bg-top  bg-no-repeat pt-52 sm:pt-64 px-[var(--padding)]  pb-16;
+  background-image: url('../public/images/bg.png');
+}

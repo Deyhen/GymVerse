@@ -1,0 +1,15 @@
+.primary-button-content {
+  @apply text-21 sm:text-22 lg:text-24;
+}
+
+.primary-button-subcontent {
+  @apply text-14 sm:text-15 lg:text-17;
+}
+
+.secodary-button {
+  @apply flex justify-between items-center;
+}
+
+.secodary-button-content {
+  @apply text-21 sm:text-22 lg:text-24;
+}

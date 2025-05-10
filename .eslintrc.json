@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "plugins": [],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": ["plugin:@typescript-eslint/recommended"],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "error",
+        "@typescript-eslint/no-non-null-assertion": "error",
+
+        "object-curly-spacing": ["warn", "always"],
+        "space-in-parens": ["warn", "never"],
+        "semi": ["warn", "always"],
+        "eol-last": ["warn", "always"],
+        "comma-spacing": ["warn", { "before": false, "after": true }],
+        "@typescript-eslint/no-unused-vars": "warn",
+        "@typescript-eslint/no-empty-function": "warn"
+      }
+    }
+  ]
+}
