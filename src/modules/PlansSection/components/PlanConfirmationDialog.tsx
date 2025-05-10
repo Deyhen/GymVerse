@@ -28,7 +28,7 @@ export const PlanConfirmationDialog = ({
         className="!absolute top-4 right-5 text-20 font-semibold font-montserrat text-white">
         X
       </Button>
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 h-fit">
         <Typography bold="bold" className="text-24 w-full" center>
           Plan Confirmation
         </Typography>
@@ -38,7 +38,7 @@ export const PlanConfirmationDialog = ({
       </div>
       <Button
         variant="secondary"
-        className="!bg-element-primary"
+        className="!bg-element-primary h-fit"
         onClick={onClose}>
         <Typography className="text-20" bold="bold">
           Confirm
