@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import BlackStarIcon from '../../svg-icons/icons/BlackStarIcon';
+import BlackStarIcon from '../..//svg-icons/icons/BlackStarIcon';
 import YellowStarIcon from '../../svg-icons/icons/YellowStarIcon';
 
 interface RateBlockProps {
