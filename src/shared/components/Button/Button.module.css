@@ -1,5 +1,5 @@
 .button {
-  @apply rounded-lg relative transition-all duration-200 xl:hover:scale-[1.01] active:scale-[0.99] active:duration-75;
+  @apply rounded-lg relative transition-all duration-200 xl:hover:scale-[1.01] active:scale-[0.99] active:duration-75 will-change-transform;
 }
 
 .primary {

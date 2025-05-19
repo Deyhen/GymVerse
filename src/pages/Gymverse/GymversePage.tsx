@@ -28,6 +28,14 @@ export function GymversePage() {
 
   return (
     <main className={styles.main}>
+      <div className="flex gap-3">
+        <Button href="/timeline" variant="primary">
+          Timeline
+        </Button>
+        <Button href="/start-plan" variant="primary">
+          Start Plan
+        </Button>
+      </div>
       <Heading />
       <CommentsSection />
       <PlansSection />
