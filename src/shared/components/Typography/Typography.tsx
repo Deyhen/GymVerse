@@ -38,7 +38,7 @@ type ComponentType =
   | 'li';
 
 type Boldness = 'normal' | 'medium' | 'semibold' | 'bold';
-type FontFamily = 'assistant' | 'montserrat';
+type FontFamily = 'assistant' | 'montserrat' | 'apple';
 
 export interface TypographyProps
   extends PropsWithChildren,
@@ -73,6 +73,7 @@ const boldnessVariants: Record<Boldness, string> = {
 const fontFamilyVariants: Record<FontFamily, string> = {
   assistant: 'font-assistant',
   montserrat: 'font-montserrat',
+  apple: 'font-apple',
 };
 
 export function Typography({

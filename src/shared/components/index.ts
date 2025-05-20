@@ -6,3 +6,6 @@ export * from './SkewBackgroundSquare';
 export * from './Dialog';
 export * from './CollapseMenu';
 export * from './RateBlock';
+export * from './RoadMap';
+export * from './DiffuseCircle';
+export * from './Divider';

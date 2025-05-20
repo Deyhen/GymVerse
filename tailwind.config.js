@@ -13,6 +13,8 @@ module.exports = {
         'grey-secondary': '#8C8C8C',
         'asure-light': '#566B86',
         'asure-dark': '#202A35',
+        'link-underlined': '#D3D3D3',
+        blue: '#598BFF',
         white: '#FFFFFF',
       },
       spacing: {
