@@ -1,13 +1,17 @@
 import { Button, Typography } from '@app/shared/components';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { MorePlans } from './MorePlans';
 import { FreeTrialButton } from './components/FreeTrialButton';
 
-export const StartTrialSection = () => {
-  const [isOpen, setisOpen] = useState(false);
+interface StartTrialSectionProps {
+  isOpen: boolean;
+  toggleModal: VoidFunction;
+}
 
-  const toogleModal = () => setisOpen(!isOpen);
-
+export const StartTrialSection = ({
+  isOpen,
+  toggleModal,
+}: StartTrialSectionProps) => {
   useEffect(() => {
     if (isOpen) {
       document.body.classList.add('overflow-hidden');
@@ -23,7 +27,7 @@ export const StartTrialSection = () => {
   return (
     <section className="flex flex-col">
       <FreeTrialButton className="mb-6" />
-      <Button variant="blank" onClick={toogleModal}>
+      <Button variant="blank" onClick={toggleModal}>
         <Typography
           center
           color="element-primary"
@@ -32,7 +36,7 @@ export const StartTrialSection = () => {
           See more plans
         </Typography>
       </Button>
-      <MorePlans isOpen={isOpen} onClose={toogleModal} />
+      <MorePlans isOpen={isOpen} onClose={toggleModal} />
     </section>
   );
 };

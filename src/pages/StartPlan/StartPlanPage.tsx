@@ -5,13 +5,18 @@ import {
   TimelineSection,
   StartTrialSection,
 } from '@app/modules/StartPlan';
+import { useState } from 'react';
 
 export const StartPlanPage = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleModal = () => setIsOpen(!isOpen);
+
   return (
     <main className={clsx(styles.main)}>
-      <Heading />
+      <Heading isOpen={isOpen} />
       <TimelineSection />
-      <StartTrialSection />
+      <StartTrialSection isOpen={isOpen} toggleModal={toggleModal} />
     </main>
   );
 };

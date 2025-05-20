@@ -1,14 +1,17 @@
 import { Typography } from '@app/shared/components';
 import CloseWhiteIcon from '@app/shared/svg-icons/icons/CloseWhiteIcon';
+import clsx from 'clsx';
 import { useNavigate } from 'react-router';
 
-export const Heading = () => {
+export const Heading = ({ isOpen }: { isOpen: boolean }) => {
   const navigate = useNavigate();
 
   return (
     <section className="flex flex-col gap-3 md:pt-4 lg:pt-28 xl:!pt-52 2xl:pt-96">
       <CloseWhiteIcon
-        className="absolute top-14 right-8"
+        className={clsx('absolute top-14 right-8', {
+          hidden: isOpen,
+        })}
         onClick={() => navigate('/')}
       />
       <Typography
