@@ -28,7 +28,7 @@
   "scripts": {
     "dev": "react-app-rewired start",
     "start": "serve -s build",
-    "build": "serve -s build",
+    "build": "react-app-rewired build ",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
