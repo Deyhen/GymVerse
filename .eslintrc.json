@@ -1,6 +1,6 @@
 {
   "root": true,
-  "ignorePatterns": ["**/*"],
+  "ignorePatterns": ["node_modules", "build", "dist"],
   "plugins": [],
   "overrides": [
     {
@@ -15,7 +15,7 @@
         "semi": ["warn", "always"],
         "eol-last": ["warn", "always"],
         "comma-spacing": ["warn", { "before": false, "after": true }],
-        "@typescript-eslint/no-unused-vars": "warn",
+        "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/no-empty-function": "warn"
       }
     }

@@ -28,8 +28,8 @@
     "useUnknownInCatchVariables": true,
 
     /* Linting & Clean Code */
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,

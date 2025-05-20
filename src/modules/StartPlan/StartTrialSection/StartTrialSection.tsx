@@ -32,7 +32,7 @@ export const StartTrialSection = () => {
           See more plans
         </Typography>
       </Button>
-      {isOpen && <MorePlans onClose={toogleModal} />}
+      <MorePlans isOpen={isOpen} onClose={toogleModal} />
     </section>
   );
 };
