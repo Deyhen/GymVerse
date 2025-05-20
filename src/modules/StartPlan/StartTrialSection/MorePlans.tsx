@@ -8,6 +8,8 @@ import { ListItem } from './components/ListItem';
 import { FreeTrialButton } from './components/FreeTrialButton';
 import { PlanSelectButton } from './components/PlanSelectButton';
 import clsx from 'clsx';
+import { useRef } from 'react';
+import { useOutsideClick } from '@app/shared/hooks';
 
 export const MorePlans = ({
   isOpen,
@@ -16,13 +18,23 @@ export const MorePlans = ({
   isOpen: boolean;
   onClose: VoidFunction;
 }) => {
+  const modalRef = useRef<HTMLDivElement | null>(null);
+
+  const handleOutsideClick = () => {
+    if (!isOpen) return;
+    onClose();
+  };
+
+  useOutsideClick(modalRef, handleOutsideClick);
+
   return (
     <div
+      ref={modalRef}
       className={clsx(
         'fixed bottom-0 left-0 w-full bg-white z-50 transition-transform duration-500 ease-in-out transform',
         isOpen ? 'translate-y-0' : 'translate-y-full'
       )}>
-      <div className="relative w-full h-auto max-h-[95vh] overflow-y-auto shadow-lg border border-element-primary">
+      <div className="relative w-full h-auto max-h-[95vh] overflow-y-auto overflow-x-hidden shadow-lg border border-element-primary">
         <DiffuseCircle className="absolute top-12 -left-4 w-64 h-64" />
         <DiffuseCircle className="absolute bottom-24 -right-10 w-64 h-64" />
 
