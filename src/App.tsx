@@ -6,9 +6,9 @@ import { StartPlanPage } from './pages/StartPlan';
 function App() {
   return (
     <Routes>
-      <Route element={<StartPlanPage />} path="/" />
+      <Route element={<GymversePage />} path="/" />
       <Route element={<TimelinePage />} path="/timeline" />
-      <Route element={<GymversePage />} path="/gymverse" />
+      <Route element={<StartPlanPage />} path="/start-plan" />
     </Routes>
   );
 }

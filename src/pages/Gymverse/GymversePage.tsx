@@ -32,7 +32,7 @@ export function GymversePage() {
         <Button href="/timeline" variant="primary">
           Timeline
         </Button>
-        <Button href="/" variant="primary">
+        <Button href="/start-plan" variant="primary">
           Start Plan
         </Button>
       </div>

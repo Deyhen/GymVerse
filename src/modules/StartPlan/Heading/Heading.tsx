@@ -9,7 +9,7 @@ export const Heading = () => {
     <section className="flex flex-col gap-3 md:pt-4 lg:pt-28 xl:!pt-52 2xl:pt-96">
       <CloseWhiteIcon
         className="absolute top-14 right-8"
-        onClick={() => navigate('/gymverse')}
+        onClick={() => navigate('/')}
       />
       <Typography
         color="element-primary"
