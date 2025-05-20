@@ -44,7 +44,8 @@ export const MorePlans = ({ onClose }: { onClose: VoidFunction }) => {
             Your plan adapts & optimizes as you train, ensuring your progress
           </ListItem>
         </div>
-        <FreeTrialButton className="mt-11 mb-5 md:mt-14 md:mb-7" />
+
+        <FreeTrialButton className="mt-11 mb-5 md:mt-14 md:mb-7 items-center last:*:max-w-[738px]" />
 
         <div className="flex gap-3 items-center mb-6 md:mb-9">
           <Divider />
@@ -57,7 +58,7 @@ export const MorePlans = ({ onClose }: { onClose: VoidFunction }) => {
           </Typography>
           <Divider />
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 items-center">
           <PlanSelectButton label="Monthly" price="$39.99" />
           <PlanSelectButton label="Lifetime" price="$119.99" />
         </div>

@@ -9,7 +9,7 @@ export const StartTrialSection = () => {
   const toogleModal = () => setisOpen(!isOpen);
 
   return (
-    <section className=" flex flex-col justify-center items-center">
+    <section className=" flex flex-col ">
       <FreeTrialButton className="mb-6" />
       <Button variant="blank" onClick={toogleModal}>
         <Typography
