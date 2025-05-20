@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .fade-mask {
+    -webkit-mask-image: linear-gradient(
+      to bottom,
+      black 20%,
+      rgba(0, 0, 0, 0.2) 60%,
+      transparent 100%
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      black 20%,
+      rgba(0, 0, 0, 0.2) 60%,
+      transparent 100%
+    );
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+}
+
 body,
 html {
   @apply m-0 p-0 min-h-screen h-full w-full  bg-element-primary font-assistant;

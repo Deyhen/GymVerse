@@ -1,7 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { GymversePage } from './pages/Gymverse';
-import { TimelinePage } from './pages/Timeline';
-import { StartPlanPage } from './pages/StartPlan';
+import { GymversePage, StartPlanPage, TimelinePage } from './pages';
 
 function App() {
   return (

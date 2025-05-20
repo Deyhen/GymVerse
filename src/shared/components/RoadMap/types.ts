@@ -13,5 +13,7 @@ export interface RoadMapStep {
 export interface RoadMapProps {
   steps: RoadMapStep[];
   roadColor: RoadColorTypes;
+  withBorder?: boolean;
+  roadClassName?: string;
   className?: string;
 }

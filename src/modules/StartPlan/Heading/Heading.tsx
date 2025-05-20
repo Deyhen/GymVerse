@@ -1,33 +1,26 @@
-import { Typography } from '@app/shared/components';
-import CloseWhiteIcon from '@app/shared/svg-icons/icons/CloseWhiteIcon';
-import clsx from 'clsx';
+import { DiffuseCircle, Typography } from '@app/shared/components';
+import { ImagesBlock } from './ImagesBlock';
 import { useNavigate } from 'react-router';
+import CloseWhiteIcon from '@app/shared/svg-icons/icons/CloseWhiteIcon';
 
-export const Heading = ({ isOpen }: { isOpen: boolean }) => {
+export const Heading = () => {
   const navigate = useNavigate();
-
   return (
-    <section className="flex flex-col gap-3 md:pt-4 lg:pt-28 xl:!pt-52 2xl:pt-96">
+    <section>
       <CloseWhiteIcon
-        className={clsx('absolute top-14 right-8', {
-          hidden: isOpen,
-        })}
+        className="absolute top-20 right-10 z-10"
         onClick={() => navigate('/')}
       />
+      <DiffuseCircle className="absolute blur-[80px] bottom-24 -right-16 w-64 h-64" />
+      <DiffuseCircle className="absolute blur-[80px] -bottom-12 -left-16 w-64 h-64" />
+      <ImagesBlock />
       <Typography
-        color="element-primary"
-        font="montserrat"
-        bold="bold"
-        className="text-36 lg:text-46 capitalize !font-black"
-        component="h1">
-        workouts made simple every day
-      </Typography>
-      <Typography
+        center
+        className="text-35 capitalize mt-7 w-full"
         color="element-primary"
         bold="semibold"
-        className="text-21 lg:text-28"
-        component="h3">
-        Here’s what to expect from your free trial:
+        font="montserrat">
+        Start Your Plan
       </Typography>
     </section>
   );

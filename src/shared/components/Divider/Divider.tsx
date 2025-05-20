@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-type ColorType = 'grey';
+type ColorType = 'grey' | 'main-dark';
 
 interface DividerProps {
   className?: string;
@@ -10,6 +10,7 @@ interface DividerProps {
 
 const colorMap = {
   grey: 'bg-link-underlined',
+  'main-dark': 'bg-element-primary',
 };
 
 export const Divider = ({
