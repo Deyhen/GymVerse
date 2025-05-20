@@ -1,5 +1,5 @@
 import { Button, Typography } from '@app/shared/components';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { MorePlans } from './MorePlans';
 import { FreeTrialButton } from './components/FreeTrialButton';
 
@@ -8,10 +8,20 @@ export const StartTrialSection = () => {
 
   const toogleModal = () => setisOpen(!isOpen);
 
-  if (isOpen) return <MorePlans onClose={toogleModal} />;
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add('overflow-hidden');
+    } else {
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    return () => {
+      document.body.classList.remove('overflow-hidden');
+    };
+  }, [isOpen]);
 
   return (
-    <section className=" flex flex-col ">
+    <section className="flex flex-col">
       <FreeTrialButton className="mb-6" />
       <Button variant="blank" onClick={toogleModal}>
         <Typography
@@ -22,6 +32,7 @@ export const StartTrialSection = () => {
           See more plans
         </Typography>
       </Button>
+      {isOpen && <MorePlans onClose={toogleModal} />}
     </section>
   );
 };

@@ -10,7 +10,7 @@ import { PlanSelectButton } from './components/PlanSelectButton';
 
 export const MorePlans = ({ onClose }: { onClose: VoidFunction }) => {
   return (
-    <div className="fixed top-0 left-0 bg-white w-full h-screen flex flex-col">
+    <div className="fixed top-0 left-0 bg-white w-full h-screen flex flex-col overflow-scroll">
       <DiffuseCircle className="fixed top-12 -left-4 w-64 h-64" />
       <DiffuseCircle className="fixed bottom-24 -right-10 w-64 h-64" />
       <div className="flex w-full justify-end items-center py-5 px-5 border-b border-element-primary">
@@ -58,7 +58,7 @@ export const MorePlans = ({ onClose }: { onClose: VoidFunction }) => {
           </Typography>
           <Divider />
         </div>
-        <div className="flex flex-col gap-4 items-center">
+        <div className="flex flex-col gap-4 items-center pb-16">
           <PlanSelectButton label="Monthly" price="$39.99" />
           <PlanSelectButton label="Lifetime" price="$119.99" />
         </div>
