@@ -8,6 +8,8 @@ export const StartTrialSection = () => {
 
   const toogleModal = () => setisOpen(!isOpen);
 
+  if (isOpen) return <MorePlans onClose={toogleModal} />;
+
   return (
     <section className=" flex flex-col ">
       <FreeTrialButton className="mb-6" />
@@ -20,7 +22,6 @@ export const StartTrialSection = () => {
           See more plans
         </Typography>
       </Button>
-      {isOpen && <MorePlans onClose={toogleModal} />}
     </section>
   );
 };
