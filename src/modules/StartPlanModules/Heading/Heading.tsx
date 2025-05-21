@@ -1,7 +1,7 @@
 import { DiffuseCircle, Typography } from '@app/shared/components';
 import { ImagesBlock } from './ImagesBlock';
 import { useNavigate } from 'react-router';
-import CloseWhiteIcon from '@app/shared/svg-icons/icons/CloseWhiteIcon';
+import CloseWhiteIcon from '@app/shared/svg-icons/icons/closes/CloseWhiteIcon';
 
 export const Heading = () => {
   const navigate = useNavigate();

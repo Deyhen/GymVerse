@@ -1,7 +1,7 @@
 import { Typography, RateBlock } from '@app/shared/components';
 
 import clsx from 'clsx';
-import SpikeletIcon from '@app/shared/svg-icons/icons/SpikeletIcon';
+import SpikeletIcon from '@app/shared/svg-icons/icons/spikelets/SpikeletIcon';
 import styles from './AchievementsSection.module.css';
 
 export const AchievementsSection = () => {

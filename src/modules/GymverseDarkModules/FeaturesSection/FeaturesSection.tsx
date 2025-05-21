@@ -3,7 +3,7 @@ import { features } from './FeaturesDB';
 import { RefObject } from 'react';
 
 import clsx from 'clsx';
-import CheckIcon from '@app/shared/svg-icons/icons/CheckIcon';
+import CheckIcon from '@app/shared/svg-icons/icons/checks/CheckIcon';
 
 export const FeaturesSection = ({
   ref,

@@ -1,0 +1,16 @@
+.main {
+  @apply relative flex flex-col min-w-xs w-full bg-white min-h-screen overflow-hidden px-[var(--padding)]  pb-16;
+}
+
+.heading {
+  @apply relative flex flex-col gap-7 min-w-full bg-cover -mx-[var(--padding)] px-[var(--padding)] pt-36  bg-top  bg-no-repeat;
+  background-image: url('../../../public/images/gymverse-light/bg.png');
+}
+
+.achievements {
+  @apply relative flex flex-col justify-start gap-[70px] pt-16 pb-11 min-w-full bg-element-primary -mx-[var(--padding)] px-[var(--padding)];
+}
+
+.benefits {
+  @apply flex flex-col -mx-[var(--padding)] px-4 sm:px-[var(--padding)];
+}

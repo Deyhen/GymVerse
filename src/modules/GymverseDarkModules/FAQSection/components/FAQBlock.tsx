@@ -1,5 +1,5 @@
 import { PropsWithChildren, useState } from 'react';
-import PlusInCircle from '@app/shared/svg-icons/icons/PlusInCircle';
+import PlusInCircle from '@app/shared/svg-icons/icons/closes/PlusInCircle';
 import { Typography, CollapseMenu } from '@app/shared/components';
 import clsx from 'clsx';
 

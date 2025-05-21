@@ -1,5 +1,5 @@
 import { Typography } from '@app/shared/components';
-import CheckBlueIcon from '@app/shared/svg-icons/icons/CheckBlueIcon';
+import CheckBlueIcon from '@app/shared/svg-icons/icons/checks/CheckBlueIcon';
 import { PropsWithChildren } from 'react';
 
 export const ListItem = ({ children }: PropsWithChildren) => (

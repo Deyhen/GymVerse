@@ -1,0 +1,7 @@
+.comment-count {
+  @apply text-[55px] leading-[55px] px-[11px] sm:text-[58px] sm:leading-[58px] sm:px-[16px] md:text-[61px] md:leading-[61px] md:px-[21px];
+}
+
+.average-rating {
+  @apply text-19 sm:text-22 md:text-23;
+}

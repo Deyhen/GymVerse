@@ -1,7 +1,8 @@
 import { RoadMap, RoadMapStep, Typography } from '@app/shared/components';
 
 import BellIcon from '@app/shared/svg-icons/icons/BellIcon';
-import BlackStarIcon from '@app/shared/svg-icons/icons/BlackStarIcon';
+import BlackStarIcon from '@app/shared/svg-icons/icons/stars/BlackStarIcon';
+
 import UnlockIcon from '@app/shared/svg-icons/icons/UnlockIcon';
 
 const steps: RoadMapStep[] = [

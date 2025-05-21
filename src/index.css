@@ -29,6 +29,12 @@ html {
   scrollbar-gutter: stable;
 }
 
+/* @media (max-width: 480px) {
+  :root {
+    --padding: 1rem;
+  }
+} */
+
 @media (max-width: 600px) {
   :root {
     --padding: 2rem;

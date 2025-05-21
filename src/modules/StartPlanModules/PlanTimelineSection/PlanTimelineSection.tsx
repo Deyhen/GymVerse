@@ -1,7 +1,7 @@
 import { RoadMap, RoadMapStep, Typography } from '@app/shared/components';
 
 import DumbbellIcon from '@app/shared/svg-icons/icons/DumbbellIcon';
-import SharpBlackStarIcon from '@app/shared/svg-icons/icons/SharpBlackStarIcon';
+import SharpBlackStarIcon from '@app/shared/svg-icons/icons/stars/SharpBlackStarIcon';
 import UnlockIcon from '@app/shared/svg-icons/icons/UnlockIcon';
 
 const steps: RoadMapStep[] = [

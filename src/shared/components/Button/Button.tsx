@@ -4,7 +4,12 @@ import styles from './Button.module.css';
 import clsx from 'clsx';
 import { Link } from 'react-router';
 
-type PlanButtonVariants = 'primary' | 'secondary' | 'blank';
+type PlanButtonVariants =
+  | 'primary'
+  | 'secondary'
+  | 'blank'
+  | 'primary-dark'
+  | 'secondary-light';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: PlanButtonVariants;

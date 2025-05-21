@@ -9,6 +9,8 @@ type CarouselType = {
   className?: string;
   options?: EmblaOptionsType;
   slidesContainerClassName?: string;
+  dotsClassName?: string;
+  activeDotClassName?: string;
 };
 
 export const Carousel = ({
@@ -16,6 +18,8 @@ export const Carousel = ({
   options,
   className,
   slidesContainerClassName,
+  dotsClassName,
+  activeDotClassName,
 }: CarouselType) => {
   const [isOverflowing, setIsOverflowing] = useState(true);
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -64,9 +68,14 @@ export const Carousel = ({
           <div
             key={index}
             onClick={() => onDotButtonClick(index)}
-            className={clsx('flex w-2 h-2 rounded-full bg-white/30 relative', {
-              '!bg-white': selectedIndex === index,
-            })}
+            className={clsx(
+              'flex w-2 h-2 rounded-full bg-white/30 relative',
+              dotsClassName,
+              {
+                '!bg-white': selectedIndex === index,
+                [`${activeDotClassName}`]: selectedIndex === index,
+              }
+            )}
           />
         ))}
       </div>

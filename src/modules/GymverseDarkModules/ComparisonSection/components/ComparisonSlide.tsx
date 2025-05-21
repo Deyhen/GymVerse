@@ -1,6 +1,6 @@
 import { PropsWithChildren } from 'react';
 import { Typography } from '@app/shared/components';
-import GymVerseLogoIcon from '@app/shared/svg-icons/icons/GymVerseLogoIcon';
+import GymVerseLogoIcon from '@app/shared/svg-icons/icons/logos/GymVerseLogoIcon';
 
 interface ComparisonSlideProps extends PropsWithChildren {
   beforeImage: string;

@@ -16,6 +16,7 @@ module.exports = {
         'link-underlined': '#D3D3D3',
         blue: '#598BFF',
         white: '#FFFFFF',
+        black: '#000000',
       },
       spacing: {
         xs: '360px',

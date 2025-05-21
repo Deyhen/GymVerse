@@ -1,6 +1,6 @@
+import BlackStarIcon from '@app/shared/svg-icons/icons/stars/BlackStarIcon';
+import YellowStarIcon from '@app/shared/svg-icons/icons/stars/YellowStarIcon';
 import clsx from 'clsx';
-import BlackStarIcon from '../../svg-icons/icons/EmptyStarIcon';
-import YellowStarIcon from '../../svg-icons/icons/YellowStarIcon';
 
 interface RateBlockProps {
   maxRate: number;

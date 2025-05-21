@@ -9,3 +9,11 @@
 .secondary {
   @apply bg-inherit border border-white px-5 py-4;
 }
+
+.primary-dark {
+  @apply bg-element-primary px-5 py-2;
+}
+
+.secondary-light {
+  @apply border-2 bg-white border-element-primary px-5 py-4;
+}

@@ -1,10 +1,10 @@
 import { Typography } from '@app/shared/components';
 
-import MSLogoIcon from '@app/shared/svg-icons/icons/M&SLogoIcon';
-import NewYorkTimesLogoIcon from '@app/shared/svg-icons/icons/NewYorkTimesLogoIcon';
-import WomensHealthLogoIcon from '@app/shared/svg-icons/icons/WomensHealthLogoIcon';
-import MensFitnessLogoIcon from '@app/shared/svg-icons/icons/MensFitnessLogoIcon';
-import USATodayLogoIcon from '@app/shared/svg-icons/icons/USATodayLogoIcon';
+import MSLogoIcon from '@app/shared/svg-icons/icons/logos/M&SLogoIcon';
+import NewYorkTimesLogoIcon from '@app/shared/svg-icons/icons/logos/NewYorkTimesLogoIcon';
+import WomensHealthLogoIcon from '@app/shared/svg-icons/icons/logos/WomensHealthLogoIcon';
+import MensFitnessLogoIcon from '@app/shared/svg-icons/icons/logos/MensFitnessLogoIcon';
+import USATodayLogoIcon from '@app/shared/svg-icons/icons/logos/USATodayLogoIcon';
 
 import styles from './FeaturedOnSection.module.css';
 

@@ -10,7 +10,9 @@ export type TypographyColor =
   | 'grey-secondary'
   | 'element-primary'
   | 'element-secondary'
-  | 'white';
+  | 'white'
+  | 'black'
+  | 'asure-light';
 
 const colors: Record<TypographyColor, string> = {
   inherit: 'text-inherit',
@@ -22,6 +24,8 @@ const colors: Record<TypographyColor, string> = {
   'element-primary': 'text-element-primary',
   'element-secondary': 'text-element-secondary',
   white: 'text-white',
+  black: 'text-black',
+  'asure-light': 'text-asure-light',
 };
 
 export type TypographyVariant = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'body';

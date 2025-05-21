@@ -1,5 +1,5 @@
 import { Typography } from '@app/shared/components';
-import CloseWhiteIcon from '@app/shared/svg-icons/icons/CloseWhiteIcon';
+import CloseWhiteIcon from '@app/shared/svg-icons/icons/closes/CloseWhiteIcon';
 import clsx from 'clsx';
 import { useNavigate } from 'react-router';
 
