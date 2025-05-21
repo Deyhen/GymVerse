@@ -4,7 +4,7 @@ import CloseBlack from '@app/shared/svg-icons/icons/closes/CloseBlack';
 export const Heading = () => {
   return (
     <section className="text-46 *:font-extrabold w-64">
-      <CloseBlack className="absolute top-9 right-6" />
+      <CloseBlack className="fixed top-9 right-6 z-[100]" />
       <Typography font="montserrat" color="element-primary">
         Smarter Workouts
       </Typography>
