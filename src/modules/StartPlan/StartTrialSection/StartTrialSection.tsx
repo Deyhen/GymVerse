@@ -12,7 +12,7 @@ export const StartTrialSection = () => {
       </Typography>
       <Button
         variant="primary"
-        className="mt-5 !bg-element-primary !text-white !py-5 !px-2  !rounded-2xl w-full">
+        className="mt-3 sm:mt-4 md:mt-5 !bg-element-primary !text-white !py-5 !px-2  !rounded-2xl w-full">
         <Typography center color="white" bold="semibold" className="text-23">
           Start my 7-day free trial
         </Typography>
