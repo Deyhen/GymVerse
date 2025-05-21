@@ -6,21 +6,21 @@ export const ImagesBlock = () => {
       <div>
         <HeaderImage
           className="rounded-r-[10%] "
-          href={'/images/start-plan-1.png'}
+          href={'/images/start-plan/start-plan-1.png'}
         />
         <HeaderImage
           className="rounded-l-[20.4px]"
-          href={'/images/start-plan-2.png'}
+          href={'/images/start-plan/start-plan-2.png'}
         />
       </div>
       <div>
         <HeaderImage
           className="rounded-r-[20.4px]"
-          href={'/images/start-plan-3.png'}
+          href={'/images/start-plan/start-plan-3.png'}
         />
         <HeaderImage
           className="rounded-l-[20.4px]"
-          href={'/images/start-plan-4.png'}
+          href={'/images/start-plan/start-plan-4.png'}
         />
       </div>
     </div>

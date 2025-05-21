@@ -1,3 +1,3 @@
-export * from './Gymverse';
+export * from './GymverseDark';
 export * from './StartPlan';
 export * from './Timeline';

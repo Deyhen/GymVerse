@@ -6,3 +6,4 @@ export * from './FeaturedOnSection';
 export * from './FeaturesSection';
 export * from './Heading';
 export * from './PlansSection';
+export * from './FAQSection';

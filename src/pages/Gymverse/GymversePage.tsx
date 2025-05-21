@@ -8,9 +8,9 @@ import {
   FeaturesSection,
   Heading,
   PlansSection,
-} from '@app/modules/Gymverse';
+  FAQSection,
+} from '@app/modules/GymverseDarkModules';
 import { Button } from '@app/shared/components';
-import { FAQSection } from '@app/modules/Gymverse/FAQSection';
 
 import ArrowToFeaturesIcon from '@app/shared/svg-icons/icons/ArrowIcon';
 import ArrowToTopIcon from '@app/shared/svg-icons/icons/YellowIconIcon';

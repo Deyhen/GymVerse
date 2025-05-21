@@ -4,7 +4,7 @@ import {
   Heading,
   TimelineSection,
   StartTrialSection,
-} from '@app/modules/Timeline';
+} from '@app/modules/TimelineModules';
 import { useState } from 'react';
 
 export const TimelinePage = () => {

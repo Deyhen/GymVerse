@@ -2,7 +2,7 @@ import {
   Heading,
   PlanTimelineSection,
   StartTrialSection,
-} from '@app/modules/StartPlan';
+} from '@app/modules/StartPlanModules';
 import styles from './styles.module.css';
 
 export const StartPlanPage = () => {

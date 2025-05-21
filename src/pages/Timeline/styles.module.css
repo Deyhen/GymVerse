@@ -1,4 +1,4 @@
 .main {
   @apply flex flex-col gap-6 w-full min-h-screen overflow-hidden bg-white bg-cover  bg-no-repeat pt-44 md:pt-72 px-4 sm:px-[var(--padding)]  pb-6;
-  background-image: url('../../../public/images/timeline-bg.png');
+  background-image: url('../../../public/images/timeline/timeline-bg.png');
 }
