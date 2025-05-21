@@ -26,8 +26,8 @@ export const RoadMap = ({
         <div key={step.id} className="flex gap-7 last:*:pt-2">
           <div className="flex flex-col items-center">
             <div
-              className={clsx('p-2', {
-                'rounded-full border-2': withBorder,
+              className={clsx('py-2', {
+                'rounded-full border-2 px-2': withBorder,
                 [roadBorderColorsMap[roadColor]]: withBorder,
               })}>
               {step.icon}

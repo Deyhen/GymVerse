@@ -31,10 +31,10 @@ export const MorePlans = ({
     <div
       ref={modalRef}
       className={clsx(
-        'fixed bottom-0 left-0 w-full bg-white z-50 transition-transform duration-500 ease-in-out transform',
+        'fixed bottom-0 left-0 w-full bg-white z-50 transition-transform duration-500 ease-in-out transform rounded-t-2xl',
         isOpen ? 'translate-y-0' : 'translate-y-full'
       )}>
-      <div className="relative w-full h-auto max-h-screen overflow-y-auto overflow-x-hidden shadow-lg border border-element-primary">
+      <div className="relative w-full h-auto max-h-screen overflow-y-auto overflow-x-hidden shadow-lg">
         <DiffuseCircle className="absolute top-12 -left-4 w-64 h-64" />
         <DiffuseCircle className="absolute bottom-24 -right-10 w-64 h-64" />
 
