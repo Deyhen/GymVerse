@@ -2,8 +2,9 @@ import { Button, Typography } from '@app/shared/components';
 import clsx from 'clsx';
 
 export const FreeTrialButton = ({ className }: { className?: string }) => (
-  <div className={clsx('flex flex-col text-15 md:text-18', className)}>
-    <Typography center color="element-primary" className="whitespace-nowrap">
+  <div
+    className={clsx('flex flex-col text-14 xs:text-15 md:text-18', className)}>
+    <Typography center color="element-primary" className="-mx-4">
       Start your 7-day free trial then $69/year | only $6.50/mo.
     </Typography>
     <Typography center color="element-primary" bold="bold">

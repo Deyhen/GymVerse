@@ -18,14 +18,14 @@ export const Heading = ({ isOpen }: { isOpen: boolean }) => {
         color="element-primary"
         font="montserrat"
         bold="bold"
-        className="text-36 lg:text-46 capitalize !font-black"
+        className="text-32 sm:text-36 lg:text-46 capitalize !font-black"
         component="h1">
         workouts made simple every day
       </Typography>
       <Typography
         color="element-primary"
         bold="semibold"
-        className="text-21 lg:text-28"
+        className="text-18 sm:text-21 lg:text-28 "
         component="h3">
         Here’s what to expect from your free trial:
       </Typography>

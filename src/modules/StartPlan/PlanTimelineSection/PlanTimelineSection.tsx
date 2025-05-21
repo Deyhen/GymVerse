@@ -51,7 +51,7 @@ const steps: RoadMapStep[] = [
 
 export const PlanTimelineSection = () => {
   return (
-    <section className="pl-5 pr-8 lg:px-16">
+    <section className="pl-5 pr-8 lg:px-16 mt-6 ">
       <RoadMap
         withBorder
         roadClassName="!w-0.5"

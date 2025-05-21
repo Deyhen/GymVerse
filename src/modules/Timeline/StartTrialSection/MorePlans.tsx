@@ -34,7 +34,7 @@ export const MorePlans = ({
         'fixed bottom-0 left-0 w-full bg-white z-50 transition-transform duration-500 ease-in-out transform',
         isOpen ? 'translate-y-0' : 'translate-y-full'
       )}>
-      <div className="relative w-full h-auto max-h-[95vh] overflow-y-auto overflow-x-hidden shadow-lg border border-element-primary">
+      <div className="relative w-full h-auto max-h-screen overflow-y-auto overflow-x-hidden shadow-lg border border-element-primary">
         <DiffuseCircle className="absolute top-12 -left-4 w-64 h-64" />
         <DiffuseCircle className="absolute bottom-24 -right-10 w-64 h-64" />
 
@@ -50,10 +50,10 @@ export const MorePlans = ({
           </Button>
         </div>
 
-        <div className="flex flex-col px-8 pb-6">
+        <div className="flex flex-col px-4 sm:px-8 pb-6">
           <Typography
             center
-            className="w-full text-22 md:text-26 py-5 md:py-7 leading-9 capitalize"
+            className="w-full text-21 sm:text-22 md:text-26 py-5 md:py-7 leading-9 capitalize"
             font="montserrat"
             bold="bold"
             color="element-primary">
