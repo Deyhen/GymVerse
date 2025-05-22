@@ -14,7 +14,7 @@ export const CommentBlock = ({
   children,
 }: CommentProps) => {
   return (
-    <div className="px-6 py-4 sm:px-[26px] sm:py-[18px] flex flex-col gap-[5px] sm:gap-1.5 lg:gap-2 bg-white rounded-xl border border-[#566B8580] w-72 sm:w-80 min-h-[140px]">
+    <div className="px-6 py-4 sm:px-[26px] sm:py-[18px] flex flex-col gap-[5px] sm:gap-1.5 lg:gap-2 bg-white rounded-xl border border-[#566B8580] w-[315px] min-h-[140px]">
       <div className="flex justify-between">
         <Typography
           className="text-14 sm:text-15 md:text-16 lg:text-18"
@@ -29,7 +29,9 @@ export const CommentBlock = ({
         </Typography>
       </div>
       <RateBlock maxRate={5} currentRate={rate} />
-      <Typography color="element-primary">{children}</Typography>
+      <Typography color="element-primary" className="text-14 sm:text-16">
+        {children}
+      </Typography>
     </div>
   );
 };

@@ -3,7 +3,7 @@
 }
 
 .heading {
-  @apply relative flex flex-col gap-7 min-w-full bg-cover -mx-[var(--padding)] px-[var(--padding)] pt-36  bg-top  bg-no-repeat;
+  @apply relative flex flex-col gap-7 min-w-full bg-cover -mx-[var(--padding)] px-[var(--padding)] pt-28 sm:pt-36  bg-top  bg-no-repeat;
   background-image: url('../../../public/images/gymverse-light/bg.png');
 }
 
