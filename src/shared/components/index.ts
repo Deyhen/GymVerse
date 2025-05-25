@@ -9,3 +9,4 @@ export * from './RateBlock';
 export * from './RoadMap';
 export * from './DiffuseCircle';
 export * from './Divider';
+export * from './SmartCloseIcon';

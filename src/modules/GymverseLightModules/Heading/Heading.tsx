@@ -1,10 +1,16 @@
-import { Typography } from '@app/shared/components';
-import CloseBlack from '@app/shared/svg-icons/icons/closes/CloseBlack';
+import { SmartCloseIcon, Typography } from '@app/shared/components';
+
+import CloseBlack from '@app/shared/svg-icons/icons/closes/CloseHeaderDarkIcon';
+import CloseWhite from '@app/shared/svg-icons/icons/closes/CloseHeaderLightIcon';
 
 export const Heading = () => {
   return (
     <section className="text-46 *:font-extrabold w-64">
-      <CloseBlack className="fixed top-9 right-6 z-[100]" />
+      <SmartCloseIcon
+        className="fixed top-9 right-6 z-[100]"
+        lightIcon={<CloseWhite />}
+        darkIcon={<CloseBlack />}
+      />
       <Typography font="montserrat" color="element-primary">
         Smarter Workouts
       </Typography>
