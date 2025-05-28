@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GymVerse/static/css/main.29f91ff2.css",
-    "main.js": "/GymVerse/static/js/main.1d9981bf.js",
+    "main.css": "/GymVerse/static/css/main.337a8bd4.css",
+    "main.js": "/GymVerse/static/js/main.1cc21459.js",
     "static/media/bg.png": "/GymVerse/static/media/bg.8ba6dcee8a92ccc68ac7.png",
     "static/media/timeline-bg.png": "/GymVerse/static/media/timeline-bg.422cad10271fb6362e83.png",
     "static/media/mens-fitness-light-logo.svg": "/GymVerse/static/media/mens-fitness-light-logo.8ba3c134b42e1a2f8d4df616e32f788c.svg",
@@ -42,11 +42,11 @@
     "static/media/black-arrow.svg": "/GymVerse/static/media/black-arrow.6475d30bdb2bfa93e5197142944fcfbb.svg",
     "static/media/arrow.svg": "/GymVerse/static/media/arrow.1d195c55f6cda9621b665d4226dd453c.svg",
     "static/media/chevron-top.svg": "/GymVerse/static/media/chevron-top.b4dc157b938f15b5134d9ac990ba541f.svg",
-    "main.29f91ff2.css.map": "/GymVerse/static/css/main.29f91ff2.css.map",
-    "main.1d9981bf.js.map": "/GymVerse/static/js/main.1d9981bf.js.map"
+    "main.337a8bd4.css.map": "/GymVerse/static/css/main.337a8bd4.css.map",
+    "main.1cc21459.js.map": "/GymVerse/static/js/main.1cc21459.js.map"
   },
   "entrypoints": [
-    "static/css/main.29f91ff2.css",
-    "static/js/main.1d9981bf.js"
+    "static/css/main.337a8bd4.css",
+    "static/js/main.1cc21459.js"
   ]
 }
