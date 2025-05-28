@@ -2,31 +2,45 @@ import { Comment } from '../../../shared/types';
 
 export const comments: Comment[] = [
   {
-    title: 'GREAT App',
+    title: 'Great for beginners!',
     content:
-      'By far the best workout planning app I’ve used!! Started at 167lbs and I’m now 181lbs with more muscle after 2 mo with the app.',
-    author: 'Davej3',
+      'Other gym apps overwhelmed me with exaggerated plans, Gymverse understood my needs and gave me perfect workout plans.',
+    author: 'Steve15',
     rate: 5,
   },
   {
-    title: 'GREAT App',
+    title: 'Lose weight',
     content:
-      'By far the best workout planning app I’ve used!! Started at 167lbs and I’m now 181lbs with more muscle after 2 mo with the app.',
-    author: 'Davej3',
+      'Lost 14lbs in just 2 months with Gymverse! The easiest and most professional way to hit your weight loss goals.',
+    author: 'Linda900',
     rate: 5,
   },
   {
-    title: 'GREAT App',
+    title: 'Best Fitness App Ever',
     content:
-      'By far the best workout planning app I’ve used!! Started at 167lbs and I’m now 181lbs with more muscle after 2 mo with the app.',
-    author: 'Davej3',
+      'Gymverse stands out! It provides structured plans, adapts to my progress, and has helped me achieve visible results. Highly recommend!',
+    author: 'Kevin60@',
     rate: 5,
   },
   {
-    title: 'GREAT App',
+    title: 'Transforms Your Gym Routine',
     content:
-      'By far the best workout planning app I’ve used!! Started at 167lbs and I’m now 181lbs with more muscle after 2 mo with the app.',
-    author: 'Davej3',
+      'The weekly progress adaptation ensures I never plateau. It’s like having a trainer who really gets you.',
+    author: 'MandyMel80',
+    rate: 5,
+  },
+  {
+    title: 'Finally, Workouts That Work',
+    content:
+      'No more guesswork at the gym! Gymverse builds customized plans that evolve with me. I’ve seen progress in just weeks.',
+    author: 'GaryKlien24',
+    rate: 5,
+  },
+  {
+    title: 'Great Companion for the Gym',
+    content:
+      'The adaptive workout plans ensure I stay on track and see progress every week. It’s super easy to navigate too!',
+    author: 'Sam007',
     rate: 5,
   },
 ];
